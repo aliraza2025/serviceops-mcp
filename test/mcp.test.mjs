@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {protocolCall} from '../local.mjs';
+test('official SDK performs a real quote and lookup round trip',async()=>{const quote=await protocolCall({tool:'quote_service',service:'exterior',units:20,stories:2});assert.equal(quote.amount,195);assert.equal((await protocolCall({tool:'get_job_status',jobId:'DEMO-101'})).status,'awaiting_review');assert.ok((await protocolCall({tool:'list_services'})).services.both);});
+test('protocol validation rejects invalid tool input and unknown jobs',async()=>{await assert.rejects(()=>protocolCall({tool:'quote_service',service:'exterior',units:-1,stories:2}));await assert.rejects(()=>protocolCall({tool:'get_job_status',jobId:'private-customer'}));});

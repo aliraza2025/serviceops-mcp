@@ -1,0 +1,83 @@
+{
+  "input": {
+    "tool": "quote_service",
+    "service": "exterior",
+    "units": 20,
+    "stories": 2,
+    "jobId": "DEMO-101"
+  },
+  "output": {
+    "title": "A typed tool result",
+    "status": "BROWSER TOOL EXAMPLE",
+    "sections": [
+      {
+        "title": "Returned fields",
+        "headers": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "service",
+            "exterior"
+          ],
+          [
+            "label",
+            "Exterior windows"
+          ],
+          [
+            "units",
+            20
+          ],
+          [
+            "stories",
+            2
+          ],
+          [
+            "currency",
+            "USD"
+          ],
+          [
+            "amount",
+            195
+          ],
+          [
+            "steps",
+            "[\"20 windows × $8 = $160\",\"Minimum charge: $120\",\"Height premium: $35\"]"
+          ],
+          [
+            "sourceId",
+            "fictional-catalog-v1"
+          ],
+          [
+            "disclaimer",
+            "Synthetic demonstration prices; not a Blue Ocean or irha offer."
+          ]
+        ]
+      },
+      {
+        "title": "Contract boundaries",
+        "items": [
+          "Three read-only / calculation tools",
+          "Fictional service records and price catalog",
+          "No scheduling, customer messages, or private CRM access"
+        ]
+      }
+    ],
+    "data": {
+      "service": "exterior",
+      "label": "Exterior windows",
+      "units": 20,
+      "stories": 2,
+      "currency": "USD",
+      "amount": 195,
+      "steps": [
+        "20 windows × $8 = $160",
+        "Minimum charge: $120",
+        "Height premium: $35"
+      ],
+      "sourceId": "fictional-catalog-v1",
+      "disclaimer": "Synthetic demonstration prices; not a Blue Ocean or irha offer."
+    }
+  }
+}
