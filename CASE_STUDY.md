@@ -1,4 +1,4 @@
-# ServiceOps MCP — product case study
+# Rabta — product case study
 
 Stage: independent prototype.
 

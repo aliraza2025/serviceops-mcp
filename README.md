@@ -1,6 +1,8 @@
-# ServiceOps MCP
+# Rabta
 
-![Project cover](public/cover.svg)
+**Typed tools for AI integrations · Raza Labs by Ali Raza**
+
+![Concept artwork for Rabta](public/project-cover.webp)
 
 An original MCP server exposing typed service-catalog, quote, and job-status tools, verified with actual client/server protocol calls.
 
@@ -42,3 +44,7 @@ The original browser source is in `public/`. `docs/` is generated for GitHub Pag
 Add a sandbox connector contract and scoped authorization before connecting a real system.
 
 License: [MIT](LICENSE) for this repository's original source. See each dependency and model card for their respective terms.
+
+## Visual identity
+
+Original AI-generated concept artwork for the Raza Labs collection, matched to Ali Raza’s midnight-purple and pink portfolio studio. The cover is illustrative artwork; the interactive demo shows the actual prototype. Generation prompt: [ARTWORK.md](ARTWORK.md).

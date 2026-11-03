@@ -1,6 +1,8 @@
 # Portfolio card
 
-**ServiceOps MCP**
+**Rabta**
+
+Typed tools for AI integrations · Raza Labs by Ali Raza
 
 Category: AI integrations
 
@@ -17,3 +19,5 @@ Repository: https://github.com/aliraza2025/serviceops-mcp
 Demo: https://aliraza2025.github.io/serviceops-mcp/
 
 Scope qualification: The tools operate only on synthetic records and a fictional price catalog. There is no private CRM, OAuth deployment, scheduling write, or customer messaging integration.
+
+Cover artwork: https://aliraza2025.github.io/serviceops-mcp/project-cover.webp
